@@ -38,7 +38,7 @@ export class Frostring implements vscode.CodeActionProvider {
   }
 
   private createFix(document: vscode.TextDocument, frozenStringLiteralCommnet: string): vscode.CodeAction {
-    const fix = new vscode.CodeAction(`Add \`${frozenStringLiteralCommnet}\``, vscode.CodeActionKind.QuickFix);
+    const fix = new vscode.CodeAction(`Add ${frozenStringLiteralCommnet}`, vscode.CodeActionKind.QuickFix);
     fix.edit = new vscode.WorkspaceEdit();
     let insertText = frozenStringLiteralCommnet + '\n';
     if (document.lineAt(0).text !== '') {

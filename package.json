@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "publisher": "Masahiro",
   "author": "Masahiro",
+  "icon": "Logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/D15143-Masahiro-NIT/Frostring.git"

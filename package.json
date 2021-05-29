@@ -2,9 +2,10 @@
   "name": "frostring",
   "displayName": "Frostring",
   "description": "This extension supports addition frozen string literal comment `# frozen_string_literal: true` to the top of ruby files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Masahiro",
   "author": "Masahiro",
+  "icon": "Logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/D15143-Masahiro-NIT/Frostring.git"

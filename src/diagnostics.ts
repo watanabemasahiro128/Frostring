@@ -5,6 +5,14 @@ import * as vscode from 'vscode';
 export const FROZEN_STRING_LITERAL = '# frozen_string_literal:';
 
 export function refreshDiagnostics(document: vscode.TextDocument, frostringDiagnostics: vscode.DiagnosticCollection): void {
+  if (
+    (document.languageId !== 'ruby' && document.languageId !== 'gemfile') ||
+    document.isUntitled ||
+    document.uri.scheme !== 'file'
+  ) {
+    return;
+  }
+
   const diagnostics: vscode.Diagnostic[] = [];
   const lineOfText = document.lineAt(0);
   if (!lineOfText.text.includes(FROZEN_STRING_LITERAL)) {

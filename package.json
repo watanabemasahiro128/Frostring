@@ -2,7 +2,7 @@
   "name": "frostring",
   "displayName": "Frostring",
   "description": "This extension supports addition frozen string literal comment to the top of ruby files.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "Masahiro",
   "author": "Masahiro",
   "icon": "Logo.png",
@@ -27,6 +27,22 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "ruby",
+        "extensions": [
+          ".rb"
+        ]
+      },
+      {
+        "id": "gemfile",
+        "filenamePatterns": [
+          "Gemfile"
+        ]
+      }
+    ]
   },
   "devDependencies": {
     "@types/vscode": "^1.56.0",

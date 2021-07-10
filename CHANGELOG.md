@@ -4,6 +4,11 @@ All notable changes to the "frostring" extension will be documented in this file
 
 ## [Released]
 
+### Ver 0.0.6
+
+* Fix to work only with certain files
+* Update GIF image of actual operation
+
 ### Ver 0.0.5
 
 * Change comment of code action

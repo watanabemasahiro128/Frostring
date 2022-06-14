@@ -8,7 +8,7 @@
   "icon": "Logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/D15143-Masahiro-NIT/Frostring.git"
+    "url": "https://github.com/watanabemasahiro128/Frostring.git"
   },
   "engines": {
     "vscode": "^1.56.0"

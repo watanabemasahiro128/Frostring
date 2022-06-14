@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Masahiro
+// Copyright (c) 2022 Masahiro
 
 import * as vscode from 'vscode';
 import { subscribeToDocumentChanges, FROZEN_STRING_LITERAL } from './diagnostics';

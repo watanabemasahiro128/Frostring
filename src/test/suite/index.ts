@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Masahiro
+// Copyright (c) 2022 Masahiro
 
 import * as path from 'path';
 import * as Mocha from 'mocha';
